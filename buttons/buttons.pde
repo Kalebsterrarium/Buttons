@@ -35,7 +35,7 @@ void draw() {
   background(white);
   println(mouseX, mouseY);
   if ( mouseX >=buttonX && mouseY >= buttonY && mouseX <= buttonX+buttonWidth && mouseY <= buttonY+buttonHeight) {
-    buttonColour = orange;
+    buttonColour = color(random(255),random(255),random(255));
   } else {
     buttonColour = yellow;
     
